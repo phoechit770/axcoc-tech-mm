@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Axcoc Tech MM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Axcoc<span>Tech MM</span></h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to <span>Axcoc Tech MM</span></h2>
+      <p>Innovating the Future — Where Creativity Meets Technology.</p>
+      <button onclick="scrollToSection('projects')">Explore Projects</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      We are passionate developers & tech enthusiasts from Myanmar, building
+      modern web experiences and AI-powered solutions. Our goal is to make
+      technology beautiful, smart, and useful.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Our Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <h3>AI Chatbot</h3>
+        <p>Smart AI assistant powered by machine learning and natural language processing.</p>
+      </div>
+      <div class="card">
+        <h3>Tech News Portal</h3>
+        <p>Stay updated with the latest innovation in Myanmar and global tech industry.</p>
+      </div>
+      <div class="card">
+        <h3>Mobile App UI</h3>
+        <p>Clean and responsive mobile UI concept for next-gen applications.</p>
+      </div>
+    </div>
+  </section>
+
+ <!-- Contact -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>Let's connect and build something amazing together.</p>
+
+  <div class="contact-info">
+    <div class="contact-item">
+      <h3>👨‍💻 Developer</h3>
+      <p>Mg Phoe Chit</p>
+    </div>
+
+    <div class="contact-item">
+      <h3>🤝 Representative</h3>
+      <p>Tin Moe Hlaing</p>
+    </div>
+
+    <div class="contact-item">
+      <h3>📧 Email</h3>
+      <p><a href="mailto:mgphoechit770@gmail.com">mgphoechit770@gmail.com</a></p>
+    </div>
+
+    <div class="contact-item">
+      <h3>💬 WhatsApp</h3>
+      <p><a href="https://wa.me/959670503500" target="_blank">+959670503500</a></p>
+    </div>
+
+    <div class="contact-item">
+      <h3>📱 Telegram</h3>
+      <p><a href="https://t.me/Axcoc7" target="_blank">@Axcoc7</a></p>
+    </div>
+
+    <div class="contact-item">
+      <h3>📞 Phone</h3>
+      <p>09670503500</p>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    <p>© 2025 Axcoc Tech MM | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+  Mg Phoe Chit, [10/22/2025 8:33 PM]
+<!DOCTYPE html>
+<html lang="my">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Axcoc Tech MM — Modern Tech Hub</title>
+  <meta name="description" content="Axcoc Tech MM - Modern Tech hub from Myanmar. Web dev, AI tools, tutorials, downloads and consulting." />
+  <meta name="keywords" content="Axcoc Tech, Myanmar, Web Development, AI Tools, Tech Blog, Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Progress bar -->
+  <div id="top-progress" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <nav class="navbar container">
+      <div class="brand" onclick="scrollToSection('home')">
+        <svg class="logo-svg" viewBox="0 0 100 100" width="36" height="36" aria-hidden="true">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1">
+              <stop offset="0" stop-color="#00F0FF"/>
+              <stop offset="1" stop-color="#FF00E0"/>
+            </linearGradient>
+          </defs>
+          <rect rx="18" width="100" height="100" fill="url(#g1)"></rect>
+        </svg>
+        <span class="brand-text">Axcoc <strong>Tech MM</strong></span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#downloads">Downloads</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+        <button class="cta" onclick="scrollToSection('contact')">Contact</button>
+        <button id="burger" aria-label="Menu">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-inner container">
+      <div class="hero-left">
+        <h1>Axcoc <span>Tech MM</span></h1>
+        <p class="lead">Innovating the Future — Where Creativity Meets Technology. Web · AI · Mobile · Learning</p>
+        <div class="hero-ctas">
+          <button class="btn" onclick="scrollToSection('projects')">Explore Projects</button>
+          <a class="btn ghost" href="#downloads">Free Downloads</a>
+        </div>
+
+        <div class="quick-stats">
+          <div><strong id="visitors-count">0</strong><span>Visitors</span></div>
+          <div><strong>24+</strong><span>Projects</span></div>
+          <div><strong>100+</strong><span>Articles</span></div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="glass-card">
+          <h3>Featured</h3>
+          <p>AI Chatbot Prototype • Mobile UI Concepts • Tech Guides</p>
+          <a class="small-link" href="#projects">See Projects →</a>
+        </div>
+
+        <div class="floating-card">
+          <h4>Need help?</h4>
+          <p>Chat with Axcoc AI (beta)</p>
+          <button class="btn small" id="open-chat">Open Chat</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about container">
+    <div class="grid about-grid">
+      <div class="about-text">
+        <h2>About Axcoc Tech MM</h2>
+        <p>Axcoc Tech MM သည် မြန်မာနိုင်ငံမှ နည်းပညာပညာရှင်များဖြင့် ဖွဲ့စည်းထားသော modern tech hub ဖြစ်ပြီး၊ Web Development, AI Integration, Mobile UI Design, နည်းပညာပိုင်းဆိုင်ရာသင်တန်းများနှင့် consultancy များပေးစွမ်းပါသည်။</p>
+        <ul class="about-list">
+          <li>Full-stack web development</li>
+          <li>AI & ML prototyping</li>
+          <li>Mobile UI / UX design</li>
+
+Mg Phoe Chit, [10/22/2025 8:33 PM]
+<li>Training & guides in Myanmar language</li>
+        </ul>
+      </div>
+      <div class="skills">
+        <div class="skill" data-skill="Web">HTML · CSS · JS</div>
+        <div class="skill" data-skill="Backend">Node / Python</div>
+        <div class="skill" data-skill="AI">LLMs / NLP</div>
+        <div class="skill" data-skill="Mobile">Flutter / React Native</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services container">
+    <h2>Services</h2>
+    <p class="muted">We build — modern websites, AI tools, and beautiful UIs. Services tailored for individuals and businesses in Myanmar.</p>
+
+    <div class="cards-grid">
+      <article class="service-card">
+        <h3>Web Development</h3>
+        <p>Responsive, SEO-friendly websites and web apps — from small portfolio sites to full web apps.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>AI Integration</h3>
+        <p>Chatbots, assistant tools, and automation using modern LLMs and ML tools.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>UI / UX Design</h3>
+        <p>Pixel-perfect mobile and web interface design — prototypes & handoff-ready assets.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>Training & Consultation</h3>
+        <p>Workshops, tutorials, and one-on-one sessions in Myanmar language.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects container">
+    <h2>Projects</h2>
+    <p class="muted">Selected works — prototypes and public demos.</p>
+
+    <div class="project-grid">
+      <div class="project">
+        <h4>AI Chat Assistant</h4>
+        <p>Prototype assistant for quick Q&A and learning help.</p>
+        <a class="small-link" href="#contact">Request Demo</a>
+      </div>
+
+      <div class="project">
+        <h4>Mobile UI Kit</h4>
+        <p>Component library and examples for Android & iOS apps.</p>
+        <a class="small-link" href="#downloads">Download</a>
+      </div>
+
+      <div class="project">
+        <h4>Tech News Portal</h4>
+        <p>News aggregator with local tech updates and tutorials.</p>
+        <a class="small-link" href="#blog">Read</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG (sample posts) -->
+  <section id="blog" class="blog container">
+    <h2>Blog & Guides</h2>
+    <p class="muted">Latest posts — short, practical guides in Myanmar language.</p>
+
+    <div class="blog-grid">
+      <article class="post">
+        <h3>ဖုန်းနဲ့ Website တည်ဆောက်နည်း (2025)</h3>
+        <p>ဖုန်းတစ်လုံးဖြင့် HTML/CSS နဲ့ website တည်ဆောက်နည်း လေ့လာချင်သူများအတွက် အဆင့်ဆင့်လမ်းညွှန်။</p>
+        <a class="small-link" href="#about">Read →</a>
+      </article>
+
+      <article class="post">
+        <h3>AI Tools အသုံးချပြီး Productivity တိုးတက်စေမယ့်နည်း</h3>
+        <p>လူတော်တော်များများ အသုံးပြုနိုင်တဲ့ AI workflow နည်းလမ်းများ။</p>
+        <a class="small-link" href="#about">Read →</a>
+      </article>
+
+      <article class="post">
+        <h3>အရင်ဆုံး GitHub Pages နဲ့ Hosting</h3>
+        <p>Free hosting နဲ့ domain တင်နည်း (step-by-step).</p>
+        <a class="small-link" href="#downloads">Download Guide</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- DOWNLOADS -->
+  <section id="downloads" class="downloads container">
+    <h2>Downloads</h2>
+    <p class="muted">Free resources to get started. Click to download sample assets.</p>
+
+    <div class="download-grid">
+      <div class="download-card">
+        <h4>Mobile UI Kit (sample)</h4>
+        <p>ZIP file with sample screens and components (mock).</p>
+        <a class="btn small outline" href="assets/sample-ui-kit.zip" download>Download .zip</a>
+      </div>
+
+      <div class="download-card">
+        <h4>Beginner Python eBook</h4>
+        <p>Compact guide to start Python programming (Myanmar).</p>
+        <a class="btn small outline" href="assets/python-basics.pdf" download>Download PDF</a>
+      </div>
+    </div>
+  </section>
+
+Mg Phoe Chit, [10/22/2025 8:33 PM]
+<!-- TESTIMONIALS -->
+  <section id="testimonials" class="testimonials container">
+    <h2>What People Say</h2>
+    <div class="test-grid">
+      <blockquote class="test-card">
+        <p>"Axcoc Tech MM ရဲ့ tutorial တွေက မြန်မာလိုရှင်းလင်း အကောင်းဆုံးပါ!"</p>
+        <cite>— Ko Kyaw, Student</cite>
+      </blockquote>
+
+      <blockquote class="test-card">
+        <p>"Project delivery was fast and professional. Highly recommended."</p>
+        <cite>— Ma Nyein, Startup Founder</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact container">
+    <h2>Contact</h2>
+    <p class="muted">အလုပ်သမားဆိုင်ရာ၊ collaboration များ၊ သင်တန်း/consultation အတွက် ဆက်သွယ်ပါ။</p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Developer</h3>
+        <p><strong>Mg Phoe Chit</strong></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Representative</h3>
+        <p><strong>Tin Moe Hlaing</strong></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Email</h3>
+        <p><a href="mailto:mgphoechit770@gmail.com">mgphoechit770@gmail.com</a></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>WhatsApp</h3>
+        <p><a href="https://wa.me/959670503500" target="_blank">+959670503500</a></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Telegram</h3>
+        <p><a href="https://t.me/Axcoc7" target="_blank">@Axcoc7</a></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Phone</h3>
+        <p>09670503500</p>
+      </div>
+    </div>
+
+    <form id="contact-form" class="contact-form" onsubmit="sendContact(event)">
+      <h3>Send a message</h3>
+      <input type="text" id="name" placeholder="Your name" required />
+      <input type="email" id="email" placeholder="Your email" required />
+      <textarea id="message" rows="4" placeholder="Message..." required></textarea>
+      <div class="form-actions">
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn ghost" onclick="mailtoContact()">Email Instead</button>
+      </div>
+      <p id="form-status" class="muted small"></p>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Axcoc Tech MM. All Rights Reserved.</p>
+      <p class="muted small">Designed & built by Mg Phoe Chit • Rs: Tin Moe Hlaing</p>
+    </div>
+  </footer>
+
+  <!-- Floating Chat Mockup -->
+  <div id="chat-widget" class="chat-widget hidden" aria-hidden="true">
+    <div class="chat-header">
+      <strong>Axcoc AI</strong>
+      <button onclick="closeChat()">✕</button>
+    </div>
+    <div class="chat-body">
+      <div class="bot-message">မင်္ဂလာပါ! မင်းကို ဘာမျိုးကူညီပေးရမလဲ?</div>
+    </div>
+    <div class="chat-input">
+      <input id="chat-input-field" placeholder="Type a message..." />
+      <button onclick="fakeReply()">Send</button>
+    </div>
+  </div>
+
+  <!-- Back to top -->
+  <button id="backTop" class="back-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Axcoc Tech MM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Axcoc Tech MM</h1>
+    <button id="theme-toggle">🌙</button>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>We develop creative and modern web solutions for Myanmar.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Developer: Mg Phoe Chit</p>
+      <p>RS: Tin Moe Hlaing</p>
+      <p>Email: mgphoechit770@gmail.com</p>
+      <p>WhatsApp: +959670503500</p>
+      <p>Telegram: @Axcoc7</p>
+      <p>Tel: 09670503500</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Axcoc Tech MM | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
+</body>
+</html>
